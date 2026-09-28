@@ -5,14 +5,17 @@ import { Button } from "@/components/ui/button";
 
 export function Contact({ data }) {
   return (
-    <section id="contato" className="bg-[#F4F0E6] px-7 py-10 md:px-12 md:py-16">
-      <div className="mx-auto max-w-[1380px]">
+    <section id="contato" className=" px-7 py-10 md:px-12 md:py-16">
+      <div className="mx-auto ">
         <SectionHeading title={data.title} description={data.description} />
 
-        <div className="mt-8 grid overflow-hidden rounded-[18px] bg-[#F7F7F7] md:grid-cols-2">
+        <div className="mt-8 grid overflow-hidden rounded-[18px] bg-muted md:grid-cols-2">
           <form className="flex flex-col gap-4 p-7 md:p-10">
             {data.fields.map((field) => (
-              <label key={field.name} className="flex flex-col gap-2 text-xs text-[#0A0A0A]">
+              <label
+                key={field.name}
+                className="flex flex-col gap-2 text-xs text-[#0A0A0A]"
+              >
                 <span>{field.label}</span>
 
                 {field.type === "textarea" ? (
@@ -20,7 +23,7 @@ export function Contact({ data }) {
                     name={field.name}
                     placeholder={field.placeholder}
                     required={field.required}
-                    className="min-h-32 resize-none rounded-none border-[#0A0A0A] bg-transparent text-xs shadow-none focus-visible:ring-0"
+                    className="min-h-32 resize-none rounded-none border-[#0A0A0A] bg-white rounded text-xs shadow-none focus-visible:ring-0"
                   />
                 ) : (
                   <Input
@@ -28,7 +31,7 @@ export function Contact({ data }) {
                     name={field.name}
                     placeholder={field.placeholder}
                     required={field.required}
-                    className="h-9 rounded-none border-[#0A0A0A] bg-transparent text-xs shadow-none focus-visible:ring-0"
+                    className="h-9 rounded-none border-[#0A0A0A] bg-white rounded text-xs shadow-none focus-visible:ring-0"
                   />
                 )}
               </label>

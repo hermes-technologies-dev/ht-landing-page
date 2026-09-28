@@ -1,37 +1,35 @@
 import Link from "next/link";
 
 const variants = {
-  light: "bg-[#F4F0E6] text-[#0A0A0A] border-[#D4AF37]",
-  navy: "bg-[#0B1628] text-[#F4F0E6] border-[#D4AF37]",
-  dark: "bg-[#202020] text-[#F4F0E6] border-[#D4AF37]",
+  light: "bg-white text-black border-accent",
+  navy: "bg-primary text-white border-accent",
+  dark: "bg-secondary text-white border-accent",
+};
+
+const variantsTitle = {
+  light: "bg-primary text-white ",
+  navy: "bg-white text-black text-black ",
+  dark: "bg-primary text-white",
 };
 
 export function SolutionCard({ item }) {
   return (
     <article
-      className={`group relative min-h-[210px] overflow-hidden rounded-[16px] border p-4 ${variants[item.variant] || variants.light}`}
+      className={`group relative min-h-[320px]  overflow-hidden rounded-2xl border-2 p-4 ${variants[item.variant] || variants.light}`}
     >
       <div className="relative z-10 flex h-full flex-col justify-between">
-        <h3 className="max-w-[170px] text-sm font-medium leading-tight md:text-base">
-          <span className="box-decoration-clone bg-current/10 px-1 py-0.5">
+        <h3 className=" font-medium leading-tight md:text-base">
+          <span
+            className={`box-decoration-clone text-2xl text-wrap  rounded  px-1 py-0.5 ${variantsTitle[item.variant] || variantsTitle.light}`}
+          >
             {item.title}
           </span>
         </h3>
-
-        <div className="flex items-end justify-between gap-4">
-          <Link
-            href={item.href}
-            className="text-[10px] underline-offset-4 transition-all hover:underline"
-          >
-            ↗ {item.ctaLabel}
-          </Link>
-        </div>
       </div>
-
       <img
         src={item.image}
         alt=""
-        className="absolute bottom-0 right-0 h-[82%] w-[55%] object-contain object-right-bottom transition-transform duration-500 group-hover:scale-105"
+        className="absolute bottom-0 right-0  object-contain object-right-bottom transition-transform duration-500 group-hover:scale-105"
       />
     </article>
   );

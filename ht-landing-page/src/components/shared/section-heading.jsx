@@ -1,7 +1,9 @@
 export function SectionHeading({ title, description, className = "" }) {
   return (
-    <div className={`flex flex-col gap-3 md:flex-row md:items-start md:justify-between ${className}`}>
-      <h2 className="inline-flex w-fit bg-[#0A0A0A] px-1.5 py-0.5 text-xl font-medium leading-none text-[#F4F0E6] md:text-2xl">
+    <div
+      className={`flex flex-col gap-3 items-center md:flex-row  md:justify-start ${className}`}
+    >
+      <h2 className="inline-flex w-fit bg-primary rounded px-1.5 py-1.5 text-xl font-medium leading-none text-white md:text-2xl">
         {title}
       </h2>
 

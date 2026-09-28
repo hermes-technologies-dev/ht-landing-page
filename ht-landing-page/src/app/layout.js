@@ -21,7 +21,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-BR" className={`${inter.variable} ${manrope.variable}`}>
+    <html
+      lang="pt-BR"
+      className={`bg-primary-foreground mt-20 ${inter.variable} ${manrope.variable} `}
+    >
       <body>{children}</body>
     </html>
   );

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function FounderCard({ founder }) {
   return (
-    <article className="rounded-[16px] border border-[#D4AF37] bg-[#F7F7F7] p-5">
+    <article className="rounded-[16px] border border-accent bg-[#F7F7F7] p-5">
       <div className="flex items-center gap-3">
         <img
           src={founder.image}
@@ -11,8 +11,10 @@ export function FounderCard({ founder }) {
         />
 
         <div>
-          <h3 className="text-sm font-medium text-[#0A0A0A]">{founder.displayName}</h3>
-          <p className="text-[10px] text-[#D4AF37]">{founder.role}</p>
+          <h3 className="text-sm font-medium text-[#0A0A0A]">
+            {founder.displayName}
+          </h3>
+          <p className="text-[10px] text-accent">{founder.role}</p>
         </div>
 
         {founder.linkedin && (

@@ -125,10 +125,11 @@ a {
   /* HT — Cores oficiais */
 
   --ht-black: #0A0A0A;
-  --ht-navy: #0B1628;
-  --ht-gold: #D4AF37;
-  --ht-ivory: #F4F0E6;
-  --ht-graphite: #202020;
+  --ht-navy: #0F3D91;
+  --ht-gold: #F4B400;
+  --ht-ivory: #F8FAFC;
+  --ht-graphite: #2F3A45;
+  --ht-gray: #D9D9D9;
 
   /* Background principal */
   --background: var(--ht-ivory);
@@ -149,6 +150,9 @@ a {
   --accent: var(--ht-gold);
   --accent-foreground: var(--ht-black);
 
+  --black: var(--ht-black);
+  --primary-gray: var(--ht-gray);
+
   /* Cards */
   --card: #ffffff;
   --card-foreground: var(--ht-black);
@@ -158,7 +162,7 @@ a {
   --popover-foreground: var(--ht-black);
 
   /* Muted */
-  --muted: #E9E5DB;
+  --muted: var(--ht-gray);
   --muted-foreground: #5F5B53;
 
   /* Bordas */
