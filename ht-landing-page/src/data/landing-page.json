@@ -1,0 +1,283 @@
+{
+  "site": {
+    "name": "Hermes Technologies",
+    "shortName": "HT",
+    "slogan": "Ideias que ganham forma.",
+    "description": "A HT — Hermes Technologies cria soluções que combinam tecnologia, criatividade e execução. Desenvolvemos sistemas, automações, inteligência artificial, produtos, protótipos e ferramentas personalizadas para transformar ideias e problemas em soluções reais.",
+    "font": {
+      "heading": "Manrope",
+      "body": "Inter"
+    }
+  },
+  "header": {
+    "logo": {
+      "src": "/landing-page-images/HT_Logo.svg",
+      "alt": "HT — Hermes Technologies"
+    },
+    "navigation": [
+      {
+        "label": "Sobre",
+        "href": "#sobre"
+      },
+      {
+        "label": "Projetos",
+        "href": "#projetos"
+      },
+      {
+        "label": "Processo",
+        "href": "#processo"
+      },
+      {
+        "label": "Contato",
+        "href": "#contato"
+      }
+    ],
+    "cta": {
+      "label": "Começar um projeto",
+      "href": "#contato"
+    }
+  },
+  "hero": {
+    "eyebrow": null,
+    "title": "Ideias que ganham forma.",
+    "description": "Transformamos problemas, necessidades e ideias em soluções reais através de tecnologia, criatividade e execução.",
+    "cta": {
+      "label": "Começar um projeto",
+      "href": "#contato"
+    },
+    "image": {
+      "src": "/landing-page-images/HT-Hero-image.png",
+      "alt": "Ilustração de Hermes"
+    }
+  },
+  "build": {
+    "title": "O que podemos construir",
+    "items": [
+      "SOFTWARE",
+      "IA",
+      "AUTOMAÇÃO",
+      "PRODUTOS",
+      "PROTÓTIPOS",
+      "INTEGRAÇÕES"
+    ],
+    "infinite": true
+  },
+  "solutions": {
+    "title": "Soluções",
+    "description": "Criamos soluções sob medida para problemas reais — do software à inteligência artificial, da automação à prototipagem.",
+    "items": [
+      {
+        "title": "Desenvolvimento de Software",
+        "description": "Sites, sistemas, aplicativos, plataformas e APIs sob medida.",
+        "image": "/landing-page-images/solutions/software.png",
+        "href": "#contato",
+        "ctaLabel": "Saiba mais",
+        "variant": "light"
+      },
+      {
+        "title": "Inteligência Artificial",
+        "description": "IA generativa, agentes inteligentes e automações com IA.",
+        "image": "/landing-page-images/solutions/artificial-intelligence.png",
+        "href": "#contato",
+        "ctaLabel": "Saiba mais",
+        "variant": "navy"
+      },
+      {
+        "title": "Automação de Processos",
+        "description": "Processos, integrações e fluxos automatizados para reduzir trabalho manual.",
+        "image": "/landing-page-images/solutions/automation.png",
+        "href": "#contato",
+        "ctaLabel": "Saiba mais",
+        "variant": "dark"
+      },
+      {
+        "title": "Produtos Digitais",
+        "description": "Produtos digitais, MVPs e soluções desenvolvidas para necessidades reais.",
+        "image": "/landing-page-images/solutions/digital-products.png",
+        "href": "#contato",
+        "ctaLabel": "Saiba mais",
+        "variant": "light"
+      },
+      {
+        "title": "Prototipagem e Hardware",
+        "description": "Prototipagem, impressão 3D, modelagem e desenvolvimento de peças e soluções físicas.",
+        "image": "/landing-page-images/solutions/prototyping.png",
+        "href": "#contato",
+        "ctaLabel": "Saiba mais",
+        "variant": "navy"
+      },
+      {
+        "title": "Pesquisa & Inovação",
+        "description": "Experimentação e desenvolvimento de soluções próprias e novas possibilidades.",
+        "image": "/landing-page-images/solutions/research.png",
+        "href": "#contato",
+        "ctaLabel": "Saiba mais",
+        "variant": "dark"
+      }
+    ]
+  },
+  "contactCta": {
+    "title": "Você tem um problema.",
+    "headline": "A gente cria a solução.",
+    "description": "Conte o que você precisa resolver, melhorar ou construir.",
+    "cta": {
+      "label": "Fale com a HT",
+      "href": "#contato"
+    },
+    "image": {
+      "src": "/landing-page-images/solutions/artificial-intelligence.png",
+      "alt": "Ilustração de Hermes"
+    }
+  },
+  "projects": {
+    "title": "Projetos",
+    "description": "Soluções reais para problemas reais. Conheça alguns dos projetos e experimentos que colocam nossas ideias em prática.",
+    "items": [
+      {
+        "title": "Soluções digitais sob medida",
+        "description": "Desenvolvemos soluções digitais sob medida para transformar necessidades específicas em produtos funcionais.",
+        "ctaLabel": "Saiba Mais",
+        "href": "#contato"
+      },
+      {
+        "title": "Automação e inteligência",
+        "description": "Combinamos software, automação e inteligência artificial para criar soluções que simplificam processos e ampliam possibilidades.",
+        "ctaLabel": "Saiba Mais",
+        "href": "#contato"
+      },
+      {
+        "title": "Tecnologia e experimentação",
+        "description": "Exploramos tecnologia, prototipagem e novas ideias para transformar conceitos em soluções que possam evoluir.",
+        "ctaLabel": "Saiba Mais",
+        "href": "#contato"
+      }
+    ]
+  },
+  "process": {
+    "title": "Como uma ideia ganha forma",
+    "description": "Da compreensão do problema à construção da solução.",
+    "items": [
+      {
+        "id": "01",
+        "title": "Entendimento",
+        "description": "Começamos entendendo o problema, o contexto e o resultado que precisa ser alcançado."
+      },
+      {
+        "id": "02",
+        "title": "Exploração",
+        "description": "Investigamos possibilidades, tecnologias e caminhos para encontrar abordagens adequadas ao problema."
+      },
+      {
+        "id": "03",
+        "title": "Planejamento",
+        "description": "Definimos a abordagem, as prioridades e o que precisa ser construído para transformar a ideia em solução."
+      },
+      {
+        "id": "04",
+        "title": "Construção",
+        "description": "Desenvolvemos a solução, transformando a estratégia definida em algo funcional e utilizável."
+      },
+      {
+        "id": "05",
+        "title": "Validação",
+        "description": "Testamos a solução, coletamos aprendizados e verificamos se ela atende ao problema proposto."
+      },
+      {
+        "id": "06",
+        "title": "Evolução",
+        "description": "A partir dos resultados, aprimoramos a solução e criamos os próximos passos para sua evolução."
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre a HT",
+    "description": "Tecnologia, criatividade e execução para transformar problemas e ideias em soluções.",
+    "founders": [
+      {
+        "name": "Fábio Matheus Rabello Ribeiro",
+        "displayName": "Fábio Rabello",
+        "role": "Cofundador",
+        "image": "/landing-page-images/founders/fabio-rabello.png",
+        "bio": null,
+        "linkedin": null
+      },
+      {
+        "name": "Ítalo Sampaio Hammes Pereira",
+        "displayName": "Ítalo Hammes",
+        "role": "Cofundador",
+        "image": "/landing-page-images/founders/italo-hammes.png",
+        "bio": null,
+        "linkedin": null
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contato",
+    "description": "Conte-nos sobre sua ideia, problema ou projeto.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Nome",
+        "placeholder": "Nome",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "placeholder": "Email",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "message",
+        "label": "Mensagem",
+        "placeholder": "Mensagem",
+        "type": "textarea",
+        "required": true
+      }
+    ],
+    "submitLabel": "Enviar mensagem",
+    "image": {
+      "src": "/landing-page-images/contact-hermes.png",
+      "alt": "Ilustração de Hermes"
+    }
+  },
+  "footer": {
+    "navigation": [
+      {
+        "label": "Sobre",
+        "href": "#sobre"
+      },
+      {
+        "label": "Projetos",
+        "href": "#projetos"
+      },
+      {
+        "label": "Processo",
+        "href": "#processo"
+      },
+      {
+        "label": "Contato",
+        "href": "#contato"
+      }
+    ],
+    "contact": {
+      "label": "Contato",
+      "email": null,
+      "phone": null,
+      "address": null
+    },
+    "social": [
+      {
+        "name": "Instagram",
+        "href": null
+      },
+      {
+        "name": "LinkedIn",
+        "href": null
+      }
+    ],
+    "copyright": "© 2026 HT — Hermes Technologies."
+  }
+}
