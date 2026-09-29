@@ -67,15 +67,9 @@ export function Header({ data }) {
               side="right"
               className="w-[85%] border-none bg-primary text-[#F4F0E6] sm:max-w-sm"
             >
-              <SheetHeader>
-                <SheetTitle className="text-left text-[#F4F0E6]">
-                  Menu
-                </SheetTitle>
-              </SheetHeader>
-
               <nav className="mt-8 flex flex-col gap-5">
                 {data.navigation.map((item) => (
-                  <SheetClose asChild key={item.href}>
+                  <SheetClose key={item.href}>
                     <Link
                       href={item.href}
                       className="rounded-md px-3 py-3 text-base transition-colors hover:bg-white/10 hover:text-accent"
@@ -85,10 +79,10 @@ export function Header({ data }) {
                   </SheetClose>
                 ))}
 
-                <SheetClose asChild>
+                <SheetClose>
                   <Link
                     href={data.cta.href}
-                    className="mt-4 rounded-md border border-accent px-4 py-3 text-center text-accent transition-colors hover:bg-accent hover:text-black"
+                    className="rounded-md px-3 py-3 text-base transition-colors hover:bg-white/10 hover:text-accent"
                   >
                     {data.cta.label}
                   </Link>

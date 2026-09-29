@@ -38,6 +38,7 @@ export function BackToTop() {
       aria-label="Voltar ao topo"
       className="
         fixed
+        cursor-pointer
         bottom-6
         right-6
         z-50
@@ -48,18 +49,18 @@ export function BackToTop() {
         justify-center
         rounded-full
         border
-        border-[#F4B400]
-        bg-[#0F3D91]
-        text-[#F4B400]
+        border-accent
+        bg-priamry
+        text-accent
         shadow-lg
         transition-all
         duration-200
         hover:-translate-y-1
-        hover:bg-[#F4B400]
-        hover:text-[#0F3D91]
+        hover:bg-accent
+        hover:text-priamry
         focus:outline-none
         focus:ring-2
-        focus:ring-[#F4B400]
+        focus:ring-accent
         focus:ring-offset-2
       "
     >

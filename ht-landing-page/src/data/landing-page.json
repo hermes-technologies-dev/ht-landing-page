@@ -265,13 +265,13 @@
     "contact": {
       "label": "Contato",
       "email": "contato.hermestechnologies@gmail.com",
-      "phone": "5512999999999",
+      "phone": "",
       "address": null
     },
     "social": [
       {
         "name": "Instagram",
-        "href": "https://www.instagram.com/hermes.technologies/"
+        "href": "https://www.instagram.com/hermestechnologies/"
       },
       {
         "name": "LinkedIn",
