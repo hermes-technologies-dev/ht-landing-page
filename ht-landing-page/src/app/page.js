@@ -11,6 +11,7 @@ import { Projects } from "@/components/sections/projects";
 import { Process } from "@/components/sections/process";
 import { About } from "@/components/sections/about";
 import { Contact } from "@/components/sections/contact";
+import { BackToTop } from "@/components/layout/back-to-top";
 
 export default function Home() {
   return (
@@ -29,6 +30,8 @@ export default function Home() {
       </main>
 
       <Footer data={data.footer} />
+
+      <BackToTop />
     </>
   );
 }

@@ -8,7 +8,7 @@ export function Solutions({ data }) {
       <div className="mx-auto ">
         <SectionHeading title={data.title} description={data.description} />
 
-        <div className="mt-7 grid gap-3 md:grid-cols-2">
+        <div className="mt-7 grid gap-3 md:grid-cols-3">
           {data.items.map((item) => (
             <SolutionCard
               className={styles.solutions_card}

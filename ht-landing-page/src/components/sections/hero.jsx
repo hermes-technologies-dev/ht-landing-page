@@ -13,10 +13,11 @@ export function Hero({ data }) {
           <p className="mt-7 ] text-sm leading-relaxed text- md:text-base">
             {data.description}
           </p>
-
-          <Button className="mt-7 rounded-md bg-accent p-6 text-md font-medium text-white hover:bg-accent hover:transform">
-            <Link href={data.cta.href}>{data.cta.label}</Link>
-          </Button>
+          <Link href={data.cta.href}>
+            <Button className="mt-7 rounded-md bg-accent cursor-pointer p-6 text-md font-medium text-white hover:bg-accent hover:transform">
+              {data.cta.label}
+            </Button>
+          </Link>
         </div>
 
         <div className="flex justify-center md:justify-end">

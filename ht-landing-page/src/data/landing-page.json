@@ -5,7 +5,7 @@
     "slogan": "Ideias que ganham forma.",
     "description": "A HT — Hermes Technologies cria soluções que combinam tecnologia, criatividade e execução. Desenvolvemos sistemas, automações, inteligência artificial, produtos, protótipos e ferramentas personalizadas para transformar ideias e problemas em soluções reais.",
     "font": {
-      "heading": "Manrope",
+      "heading": "Nexa",
       "body": "Inter"
     }
   },
@@ -16,16 +16,16 @@
     },
     "navigation": [
       {
-        "label": "Sobre",
-        "href": "#sobre"
-      },
-      {
         "label": "Projetos",
         "href": "#projetos"
       },
       {
         "label": "Processo",
         "href": "#processo"
+      },
+      {
+        "label": "Sobre",
+        "href": "#sobre"
       },
       {
         "label": "Contato",
@@ -72,7 +72,7 @@
         "image": "/landing-page-images/solutions/software.png",
         "href": "#contato",
         "ctaLabel": "Saiba mais",
-        "variant": "light"
+        "variant": "navy"
       },
       {
         "title": "Inteligência Artificial",
@@ -80,7 +80,7 @@
         "image": "/landing-page-images/solutions/artificial-intelligence.png",
         "href": "#contato",
         "ctaLabel": "Saiba mais",
-        "variant": "navy"
+        "variant": "dark"
       },
       {
         "title": "Automação de Processos",
@@ -88,7 +88,7 @@
         "image": "/landing-page-images/solutions/automation.png",
         "href": "#contato",
         "ctaLabel": "Saiba mais",
-        "variant": "dark"
+        "variant": "light"
       },
       {
         "title": "Produtos Digitais",
@@ -104,7 +104,7 @@
         "image": "/landing-page-images/solutions/prototyping.png",
         "href": "#contato",
         "ctaLabel": "Saiba mais",
-        "variant": "navy"
+        "variant": "dark"
       },
       {
         "title": "Pesquisa & Inovação",
@@ -112,7 +112,7 @@
         "image": "/landing-page-images/solutions/research.png",
         "href": "#contato",
         "ctaLabel": "Saiba mais",
-        "variant": "dark"
+        "variant": "navy"
       }
     ]
   },
@@ -197,17 +197,17 @@
         "name": "Fábio Matheus Rabello Ribeiro",
         "displayName": "Fábio Rabello",
         "role": "Cofundador",
-        "image": "/landing-page-images/founders/fabio-rabello.png",
-        "bio": null,
-        "linkedin": null
+        "image": "/landing-page-images/founders/fabio_rabello.jpg",
+        "bio": "Front-end Developer | HTML e CSS | Javascript | Node.js | Bootstrap | React.js | Vite.js",
+        "linkedin": "https://www.linkedin.com/in/fabio-rabello-7478b3232/"
       },
       {
         "name": "Ítalo Sampaio Hammes Pereira",
         "displayName": "Ítalo Hammes",
         "role": "Cofundador",
-        "image": "/landing-page-images/founders/italo-hammes.png",
-        "bio": null,
-        "linkedin": null
+        "image": "/landing-page-images/founders/italo_hammes.png",
+        "bio": "Java Developer in Training | Systems Analysis and Development Student",
+        "linkedin": "https://www.linkedin.com/in/italo-hammes22072004/"
       }
     ]
   },
@@ -264,14 +264,14 @@
     ],
     "contact": {
       "label": "Contato",
-      "email": null,
-      "phone": null,
+      "email": "contato.hermestechnologies@gmail.com",
+      "phone": "5512999999999",
       "address": null
     },
     "social": [
       {
         "name": "Instagram",
-        "href": null
+        "href": "https://www.instagram.com/hermes.technologies/"
       },
       {
         "name": "LinkedIn",

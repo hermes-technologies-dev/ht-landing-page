@@ -2,6 +2,7 @@ import { SectionHeading } from "@/components/shared/section-heading";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export function Contact({ data }) {
   return (
@@ -23,7 +24,7 @@ export function Contact({ data }) {
                     name={field.name}
                     placeholder={field.placeholder}
                     required={field.required}
-                    className="min-h-32 resize-none rounded-none border-[#0A0A0A] bg-white rounded text-xs shadow-none focus-visible:ring-0"
+                    className="min-h-32 resize-none  border-[#0A0A0A] bg-white rounded text-xs shadow-none focus-visible:ring-0"
                   />
                 ) : (
                   <Input
@@ -31,7 +32,7 @@ export function Contact({ data }) {
                     name={field.name}
                     placeholder={field.placeholder}
                     required={field.required}
-                    className="h-9 rounded-none border-[#0A0A0A] bg-white rounded text-xs shadow-none focus-visible:ring-0"
+                    className="h-9  border-[#0A0A0A] bg-white rounded text-xs shadow-none focus-visible:ring-0"
                   />
                 )}
               </label>
@@ -45,8 +46,10 @@ export function Contact({ data }) {
             </Button>
           </form>
 
-          <div className="relative hidden min-h-[420px] overflow-hidden md:block">
-            <img
+          <div className="relative hidden  overflow-hidden md:block">
+            <Image
+              width={100}
+              height={100}
               src={data.image.src}
               alt={data.image.alt}
               className="absolute inset-0 h-full w-full object-contain"
