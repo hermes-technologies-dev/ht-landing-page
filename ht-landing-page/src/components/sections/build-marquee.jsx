@@ -14,7 +14,7 @@ export function BuildMarquee({ data }) {
               {data.items.map((item, index) => (
                 <span
                   key={`${group}-${index}`}
-                  className="text-xs font-medium tracking-tight text-[#0A0A0A] md:text-sm"
+                  className="text-md font-medium tracking-tight text-black md:text-md"
                 >
                   {item}
                 </span>

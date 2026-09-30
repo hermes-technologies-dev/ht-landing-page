@@ -11,7 +11,7 @@
   },
   "header": {
     "logo": {
-      "src": "/landing-page-images/HT_Logo.svg",
+      "src": "/landing-page-images/ht-logo.svg",
       "alt": "HT — Hermes Technologies"
     },
     "navigation": [
@@ -198,7 +198,7 @@
         "displayName": "Fábio Rabello",
         "role": "Cofundador",
         "image": "/landing-page-images/founders/fabio_rabello.jpg",
-        "bio": "Front-end Developer | HTML e CSS | Javascript | Node.js | Bootstrap | React.js | Vite.js",
+        "bio": "Desenvolvedor com perfil multidisciplinar, interessado em transformar ideias e necessidades de negócio em produtos digitais funcionais e bem estruturados. Une conhecimento técnico, visão de produto e atenção à experiência do usuário, buscando soluções que equilibram qualidade, simplicidade e impacto real.",
         "linkedin": "https://www.linkedin.com/in/fabio-rabello-7478b3232/"
       },
       {
@@ -206,7 +206,7 @@
         "displayName": "Ítalo Hammes",
         "role": "Cofundador",
         "image": "/landing-page-images/founders/italo_hammes.png",
-        "bio": "Java Developer in Training | Systems Analysis and Development Student",
+        "bio": "Une tecnologia e visão comercial, com facilidade para compreender pessoas, ideias e necessidades. Comunicativo e proativo, busca transformar problemas reais em soluções simples, eficientes e alinhadas a cada cliente.",
         "linkedin": "https://www.linkedin.com/in/italo-hammes22072004/"
       }
     ]
@@ -239,7 +239,7 @@
     ],
     "submitLabel": "Enviar mensagem",
     "image": {
-      "src": "/landing-page-images/contact-hermes.png",
+      "src": "/landing-page-images/contact-hermes.svg",
       "alt": "Ilustração de Hermes"
     }
   },

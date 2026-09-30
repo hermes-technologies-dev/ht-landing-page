@@ -50,13 +50,12 @@ export function BackToTop() {
         rounded-full
         border
         border-accent
-        bg-priamry
+        bg-primary
         text-accent
         shadow-lg
         transition-all
         duration-200
         hover:-translate-y-1
-        hover:bg-accent
         hover:text-priamry
         focus:outline-none
         focus:ring-2

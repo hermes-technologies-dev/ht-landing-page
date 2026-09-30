@@ -15,7 +15,7 @@ export function Footer({ data }) {
     : null;
 
   return (
-    <footer className="rounded-t-[18px] bg-primary px-7 py-10 text-[#F4F0E6] md:px-12 md:py-12">
+    <footer className="rounded-t-[18px] bg-primary px-7 py-10 text-primary-foreground md:px-12 md:py-12">
       <div className="mx-auto">
         <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
           {/* CONTATO */}
@@ -24,7 +24,7 @@ export function Footer({ data }) {
               {data.contact.label || "Contato"}
             </span>
 
-            <div className="mt-4 space-y-2 text-[10px] leading-relaxed">
+            <div className="mt-4 space-y-2 text-sm leading-relaxed">
               {/* EMAIL */}
               {data.contact.email && (
                 <Link
@@ -83,7 +83,7 @@ export function Footer({ data }) {
                     rel="noreferrer"
                     aria-label={item.name}
                     title={item.name}
-                    className="flex size-9 items-center justify-center rounded-full border border-[#F4F0E6]/30 transition-all hover:border-accent hover:bg-accent hover:text-black"
+                    className="flex size-9 items-center justify-center rounded-full border transition-all hover:border-accent hover:bg-accent hover:text-black"
                   >
                     <Icon className="size-4" />
                   </Link>
@@ -98,7 +98,7 @@ export function Footer({ data }) {
                 rel="noreferrer"
                 aria-label="WhatsApp"
                 title="WhatsApp"
-                className="flex size-9 items-center justify-center rounded-full border border-[#F4F0E6]/30 transition-all hover:border-accent hover:bg-accent hover:text-black"
+                className="flex size-9 items-center justify-center rounded-full border  transition-all hover:border-accent hover:bg-accent hover:text-black"
               >
                 <FaWhatsapp className="size-4" />
               </Link>
@@ -110,7 +110,7 @@ export function Footer({ data }) {
                 href={emailHref}
                 aria-label="E-mail"
                 title="E-mail"
-                className="flex size-9 items-center justify-center rounded-full border border-[#F4F0E6]/30 transition-all hover:border-accent hover:bg-accent hover:text-black"
+                className="flex size-9 items-center justify-center rounded-full border transition-all hover:border-accent hover:bg-accent hover:text-black"
               >
                 <Mail className="size-4" />
               </Link>
@@ -119,7 +119,7 @@ export function Footer({ data }) {
         </div>
 
         {/* COPYRIGHT */}
-        <div className="mt-10 border-t border-[#F4F0E6]/30 pt-5 text-[10px]">
+        <div className="mt-10 border-t pt-5 text-sm text-center">
           {data.copyright}
         </div>
       </div>
