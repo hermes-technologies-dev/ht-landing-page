@@ -13,10 +13,11 @@ export function ContactCta({ data }) {
           <p className="mt-3 max-w-md text-xs leading-relaxed text-[#202020] md:text-sm">
             {data.description}
           </p>
-
-          <Button className="mt-5 bg-black text-primary-foreground p-6 hover:bg-[#202020]">
-            <Link href={data.cta.href}>{data.cta.label}</Link>
-          </Button>
+          <Link className="cursor-pointer" href={data.cta.href}>
+            <Button className=" cursor-pointer mt-5 bg-black text-primary-foreground p-6 hover:bg-[#202020]">
+              {data.cta.label}
+            </Button>
+          </Link>
         </div>
 
         <img
