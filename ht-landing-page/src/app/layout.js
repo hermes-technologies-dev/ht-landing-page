@@ -8,9 +8,28 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Hermes Technologies",
+  title: "Hermes Technologies — Ideias que ganham forma.",
   description:
-    "Tecnologia, criatividade e execução para transformar ideias em soluções.",
+    "A Hermes Technologies cria soluções digitais, automações e aplicações com inteligência artificial.",
+
+  alternates: {
+    canonical: "https://hermestechnologies.com.br/",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  openGraph: {
+    title: "Hermes Technologies — Ideias que ganham forma.",
+    description:
+      "Soluções digitais, automações, software e inteligência artificial.",
+    url: "https://hermestechnologies.com.br/",
+    siteName: "Hermes Technologies",
+    locale: "pt_BR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {

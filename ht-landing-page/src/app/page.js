@@ -12,6 +12,7 @@ import { Process } from "@/components/sections/process";
 import { About } from "@/components/sections/about";
 import { Contact } from "@/components/sections/contact";
 import { BackToTop } from "@/components/layout/back-to-top";
+import { SlideUp } from "@/components/animations/SlideUp";
 
 export default function Home() {
   return (
@@ -20,13 +21,27 @@ export default function Home() {
 
       <main>
         <Hero data={data.hero} />
-        <BuildMarquee data={data.build} />
-        <Solutions data={data.solutions} />
-        <ContactCta data={data.contactCta} />
-        <Projects data={data.projects} />
-        <Process data={data.process} />
-        <About data={data.about} />
-        <Contact data={data.contact} />
+        <SlideUp>
+          <BuildMarquee data={data.build} />
+        </SlideUp>
+        <SlideUp>
+          <Solutions data={data.solutions} />
+        </SlideUp>
+        <SlideUp>
+          <ContactCta data={data.contactCta} />
+        </SlideUp>
+        <SlideUp>
+          <Projects data={data.projects} />
+        </SlideUp>
+        <SlideUp>
+          <Process data={data.process} />
+        </SlideUp>
+        <SlideUp>
+          <About data={data.about} />
+        </SlideUp>
+        <SlideUp>
+          <Contact data={data.contact} />
+        </SlideUp>
       </main>
 
       <Footer data={data.footer} />

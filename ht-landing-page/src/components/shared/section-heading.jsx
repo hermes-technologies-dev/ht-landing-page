@@ -1,3 +1,5 @@
+import { SlideUp } from "../animations/SlideUp";
+
 export function SectionHeading({ title, description, className = "" }) {
   return (
     <div

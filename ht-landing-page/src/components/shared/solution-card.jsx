@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 const variants = {
   light: "bg-white text-black border-accent",
   navy: "bg-primary text-white border-accent",
